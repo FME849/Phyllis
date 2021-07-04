@@ -4,10 +4,14 @@
     margin: 0;
     padding: 0;
     background-color: black;
+    /*font-family: Verdana, Geneva, Tahoma, sans-serif;*/
+    font-family: 'Roboto',sans-serif; 
+    font-weight: 500;
 }
 
 * {
     box-sizing: inherit;
+    font-family: inherit;
 }
 
 header {
@@ -21,13 +25,11 @@ div#menu-container {
     margin: 0 auto;
     padding: 0;
     text-align: right;
-   /* border: solid 1px cyan;*/
 }
 
 ul#menu {
     display: inline-block;
     list-style-type: none;
-    /*border: solid 1px blue;*/
     margin: 0;
     margin-bottom: -5px;
 }
@@ -43,7 +45,6 @@ ul#menu li a {
     display: block;
     text-decoration: none;
     color: black;
-    /*border: solid 1px red;*/
     padding: 20px 10px; 
 }
 
